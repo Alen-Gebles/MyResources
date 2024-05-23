@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resources</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="satoshi.css">
+  <script async src="script.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="about">
+      <h1>Hello stranger</h1>
+      <h3>Here are some of the resources i use that help me through out my journey as a web dev.</h3>
+    </div>
+
+      <div class="btnRow">
+        <button class="btn" id="btn1" onclick="openTab(event, 'html')">HTML</button>
+        <button class="btn" id="btn2" onclick="openTab(event, 'css')">CSS</button>
+        <button class="btn" id="btn3" onclick="openTab(event, 'js')">JavaScript</button>
+        <button class="btn" id="btn4" onclick="openTab(event, 'react')">React</button>
+        <button class="btn" id="btn5" onclick="openTab(event, 'design')">Design</button>
+      </div>
+
+    <div class="main">
+      <div class="html page" id="html">
+          <div class="item">
+            <a target="_blank" href="https://www.freecodecamp.org" class="item_name">FreeCodeCamp</a>
+            <p class="item_desctription">This is the place that I started and fell in love with coding! Start here if you want to learn HTML and CSS. Make sure to put your own creative twist on the module projects, you will learn so much more!</p>
+            <div class="item_tdlr">
+              <div class="tdlr_text">Certification</div>
+              <div class="tdlr_text">Main</div>
+              <div class="tdlr_text">General</div>
+              <div class="tdlr_text">Chellenges</div>
+            </div>
+          </div>
+
+          <div class="item">
+            <a target="_blank" href="https://www.youtube.com/@TheCoderCoder/videos" class="item_name">Coder Coder</a>
+            <p class="item_desctription">Awesome YouTube channel with walkthrough projects. She explains every piece of code that is written, and breaks it down for beginners. She also has a great video explaining VS code, git and github.</p>
+            <div class="item_tdlr">
+              <div class="tdlr_text">Walkthrough</div>
+              <div class="tdlr_text">Github </div>
+              <div class="tdlr_text">General</div>
+              <div class="tdlr_text">Instructions</div>
+            </div>
+          </div>
+
+          <div class="item">
+            <a target="_blank" href="https://developer.mozilla.org/en-US/" class="item_name">MDN Web Docs</a>
+            <p class="item_desctription">The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.</p>
+            <div class="item_tdlr">
+              <div class="tdlr_text">Community</div>
+              <div class="tdlr_text">Active Learning</div>
+              <div class="tdlr_text">General</div>
+              <div class="tdlr_text">Has Everything</div>
+            </div>
+          </div>
+
+          <div class="item">
+            <a target="_blank" href="https://www.youtube.com/playlist?list=PLBf-QcbaigsJysJ-KFZvLGJvvW-3sfk1S" class="item_name">100Devs</a>
+            <p class="item_desctription">Includes HTML, CSS and JavaScript in the curriculum. Can join a community or go through the videos on YouTube. For people who like video based learning. Have not used this much. </p>
+            <div class="item_tdlr">
+              <div class="tdlr_text">Community</div>
+              <div class="tdlr_text">Details</div>
+              <div class="tdlr_text">General</div>
+              <div class="tdlr_text">Broad</div>
+            </div>
+          </div>
+      </div>
+
+      <div class="html page" id="css">
+        <div class="item">
+          <a target="_blank" href="https://icodethis.com/Allen" class="item_name">iCodeThis</a>
+          <p class="item_desctription">This is a great platform for challenging yourself and your CSS skills. It's particularly good if you want to practice TailwindCSS. The community is super supportive and ready to give you constructive feedback on your work.</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">On hand practice</div>
+            <div class="tdlr_text">Styling</div>
+            <div class="tdlr_text">Responsive</div>
+            <div class="tdlr_text">Design</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <a target="_blank" href="" class="item_name">100 Days CSS</a>
+          <p class="item_desctription">This is a daily CSS challenge, great for learning new concepts that you can use later in your own projects. Put a creative twist on the project and you can learn a lot. Try to do it yourself before peeking</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">Intermediate</div>
+            <div class="tdlr_text">Styling</div>
+            <div class="tdlr_text">Fun</div>
+            <div class="tdlr_text">Challenge</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <a target="_blank" href="https://www.youtube.com/@KevinPowell" class="item_name">Kevin Powell</a>
+          <p class="item_desctription">Father of CSS. Do i need to say anything else?</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">Legend</div>
+            <div class="tdlr_text">Details</div>
+            <div class="tdlr_text">General</div>
+            <div class="tdlr_text">Clear Instructions</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <a target="_blank" href="https://www.w3schools.com/css/default.asp" class="item_name">W3Schools</a>
+          <p class="item_desctription">While using a main resource to learn HTML & CSS together, using W3Schools to practice is a great choice. Everything is grouped by category. Make sure to do all the "try it yourself" and the exercises.</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">Learning Path</div>
+            <div class="tdlr_text">Intermediate</div>
+            <div class="tdlr_text">Challenge</div>
+            <div class="tdlr_text">Broad</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="html page" id="js">
+        <div class="item">
+          <a target="_blank" href="https://javascript.info" class="item_name">JavaScript.info</a>
+          <p class="item_desctription">Similar to JS documentation, but easy to follow. Text-based content that is an excellent resource after you have already grasped the fundamentals of JS. Covers every relevant topic and includes practice exercises.</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">Certification</div>
+            <div class="tdlr_text">Main</div>
+            <div class="tdlr_text">General</div>
+            <div class="tdlr_text">Chellenges</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <a target="_blank" href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" class="item_name">freeCodeCamp</a>
+          <p class="item_desctription">I do think this is a good resource, but you should first learn from one of the other main resources first. It can be challenging for beginners, come here after you know the basics. Try it, and make your own projects at the end of the course!</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">Walkthrough</div>
+            <div class="tdlr_text">Github </div>
+            <div class="tdlr_text">General</div>
+            <div class="tdlr_text">Instructions</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <a target="_blank" href="https://www.youtube.com/@BroCodez" class="item_name">Bro Code</a>
+          <p class="item_desctription">He has literally everything, but one thing that really helped are his JavaScript courses.</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">Community</div>
+            <div class="tdlr_text">Active Learning</div>
+            <div class="tdlr_text">General</div>
+            <div class="tdlr_text">Has Everything</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <a target="_blank" href="" class="item_name">100Devs</a>
+          <p class="item_desctription">He breaks down the code and makes it understandable, also he is very motivational. Can learn through the videos on YouTube and track progress on this website</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">Community</div>
+            <div class="tdlr_text">Details</div>
+            <div class="tdlr_text">General</div>
+            <div class="tdlr_text">Broad</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="html page" id="react">
+        <div class="item">
+          <a target="_blank" href="https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/" class="item_name">Dr. Angela Yu</a>
+          <p class="item_desctription">This is the place that I started and fell in love with coding! Start here if you want to learn everything about web development but mostly React.</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">Certification</div>
+            <div class="tdlr_text">Main</div>
+            <div class="tdlr_text">General</div>
+            <div class="tdlr_text">Chellenges</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <a target="_blank" href="https://www.youtube.com/@programmingwithmosh" class="item_name">Programming with Mosh</a>
+          <p class="item_desctription">Awesome YouTube channel with walkthrough projects for React but pretty much everything else as well. He also has a great video explaining VS code, git and github.</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">Walkthrough</div>
+            <div class="tdlr_text">Github </div>
+            <div class="tdlr_text">General</div>
+            <div class="tdlr_text">Instructions</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <a target="_blank" href="" class="item_name">MDN Web Docs</a>
+          <p class="item_desctription">The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">Community</div>
+            <div class="tdlr_text">Active Learning</div>
+            <div class="tdlr_text">General</div>
+            <div class="tdlr_text">Has Everything</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <a target="_blank" href="" class="item_name">W3Schools</a>
+          <p class="item_desctription">Great for reference and refreshing knowledge. Mini quizzes and problems to solve and get points. Extensive information and short pieces of example code. Would use in addition to your main resource.</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">Community</div>
+            <div class="tdlr_text">Details</div>
+            <div class="tdlr_text">General</div>
+            <div class="tdlr_text">Broad</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="html page" id="design">
+        <div class="item">
+          <a target="_blank" href="https://www.youtube.com/@KevinPowell" class="item_name">Kevin Powell</a>
+          <p class="item_desctription">Obviously him here too. Explains everything in detail while giving lots on tips and tricks for design.</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">Legend</div>
+            <div class="tdlr_text">Details</div>
+            <div class="tdlr_text">General</div>
+            <div class="tdlr_text">Clear Instructions</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <a target="_blank" href="https://www.youtube.com/@FluxAcademy/videos" class="item_name">Flux Academy</a>
+          <p class="item_desctription">Awesome YouTube channel with great advice. They basicly have everything you need with LOTS of examples and tutorials.</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">Walkthrough</div>
+            <div class="tdlr_text">Github </div>
+            <div class="tdlr_text">General</div>
+            <div class="tdlr_text">Instructions</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <a target="_blank" href="" class="item_name">Other Designers</a>
+          <p class="item_desctription">Best way to start designing is to copy others. That you as you code and design stuff you'll find your own style and rock with it. It's pretty hard if you start from scratch</p>
+          <div class="item_tdlr">
+            <div class="tdlr_text">Community</div>
+            <div class="tdlr_text">Active Learning</div>
+            <div class="tdlr_text">General</div>
+            <div class="tdlr_text">Has Everything</div>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+
+  <p class="ftr">Designed & Built by <a target="_blank" href="https://x.com/Alen_Gebles">Me</a></p>
+  
+</body>
+</html>
